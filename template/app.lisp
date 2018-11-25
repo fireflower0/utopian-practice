@@ -1,7 +1,7 @@
 (defpackage #:template/app
   (:use #:cl
         #:utopian
-        #:template/config))
+        #:template/config/config))
 (in-package #:template/app)
 
 (defapp template-app () ())
