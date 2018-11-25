@@ -4,7 +4,7 @@
 
 ```
 ros install fireflower0/utopian-practice
-cd template/
+cd ~/.roswell/local-projects/fireflower0/utopian-practice/template/
 ```
 
 ## Usage
