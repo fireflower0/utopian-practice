@@ -1,9 +1,9 @@
-(defpackage #:template/controllers/controllers
+(defpackage #:template/controllers/root
   (:use #:cl
         #:utopian
-        #:template/views/views)
+        #:template/views/root)
   (:export #:index))
-(in-package #:template/controllers/controllers)
+(in-package #:template/controllers/root)
 
 (defun index (params)
   (declare (ignore params))

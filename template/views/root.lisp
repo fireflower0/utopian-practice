@@ -1,9 +1,9 @@
-(defpackage #:template/views/views
+(defpackage #:template/views/root
   (:use #:cl
         #:lsx
         #:utopian)
   (:export #:index-page))
-(in-package #:template/views/views)
+(in-package #:template/views/root)
 
 (lsx:enable-lsx-syntax)
 
