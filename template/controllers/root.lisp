@@ -1,6 +1,7 @@
 (defpackage #:template/controllers/root
   (:use #:cl
         #:utopian
+        ;; #:template/controllers/render
         #:template/views/root)
   (:export #:index))
 (in-package #:template/controllers/root)

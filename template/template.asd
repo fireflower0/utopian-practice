@@ -4,6 +4,7 @@
   :version "0.1.0"
   :depends-on ("clack"
                "utopian"
-               "template/app"
                "cl-syntax"
-               "cl-syntax-lsx"))
+               "cl-syntax-lsx"
+               "djula"
+               "template/app"))
