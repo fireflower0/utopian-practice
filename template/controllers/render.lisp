@@ -10,7 +10,7 @@
 (in-package #:template/controllers/render)
 
 (defparameter *application-root*   (asdf:system-source-directory :template))
-(defparameter *template-directory* (merge-pathnames #P"../views/" *application-root*))
+(defparameter *template-directory* (merge-pathnames #P"views/" *application-root*))
 
 (djula:add-template-directory *template-directory*)
 
