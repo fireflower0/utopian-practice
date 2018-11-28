@@ -1,7 +1,6 @@
 (defpackage #:template/controllers/render
   (:use #:cl
-        #:utopian
-        #:template/views/root)
+        #:utopian)
   (:import-from #:djula
                 #:add-template-directory
                 #:compile-template*
