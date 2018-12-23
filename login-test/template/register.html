@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block title %}Utopian Todo App{% endblock %}
+{% block content %}
+<h1>登録画面</h1>
+<form>
+  <table border="0">
+    <tr>
+      <td>ID</td>
+      <td><input type="text" name="id" id="id"></td>
+    </tr>
+    <tr>
+      <td>メールアドレス</td>
+      <td><input type="text" name="mail" id="mail"></td>
+    </tr>
+    <tr>
+      <td>パスワード</td>
+      <td><input type="password" name="password" id="password"></td>
+    </tr>
+    <tr>
+      <td>パスワード (確認)</td>
+      <td><input type="password" name="confirm-password" id="confirm-password"></td>
+    </tr>
+  </table>
+  <input type="submit" value="登録">
+  <input type="reset" value="リセット">
+  <input type="button" value="戻る">
+</form>
+{% endblock %}
